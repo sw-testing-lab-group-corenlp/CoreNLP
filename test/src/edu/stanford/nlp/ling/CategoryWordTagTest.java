@@ -23,12 +23,4 @@ public class CategoryWordTagTest extends TestCase {
     assertEquals("Testing method tag", "C", tag.tag());
   }
 
-  @Test
-  public void testCategoryWordTagConstructorWithParCategoryWordTag() {
-    CategoryWordTag tag = new CategoryWordTag("A", "B", "C");
-
-    assertEquals("Testing method category","A", tag.category());
-    assertEquals("Testing method category","B", tag.word());
-    assertEquals("Testing method category","C", tag.tag());
-  }
 }
