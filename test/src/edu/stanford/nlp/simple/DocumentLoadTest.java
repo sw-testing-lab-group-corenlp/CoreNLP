@@ -36,7 +36,7 @@ public class DocumentLoadTest {
       long end = System.nanoTime();
       long elapsed = end - start;
 
-      Assert.assertTrue((elapsed + epsilon) < this.baseLine * i);
+      Assert.assertTrue((elapsed - epsilon) < this.baseLine * i);
     }
   }
 }
